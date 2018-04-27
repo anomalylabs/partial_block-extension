@@ -1,0 +1,34 @@
+{
+    "name": "anomaly/partial_block-extension",
+    "type": "streams-addon",
+    "description": "Include a partial.",
+    "keywords": [
+        "streams module",
+        "partial block",
+        "extension"
+    ],
+    "homepage": "https://pyrocms.com/",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "PyroCMS, Inc.",
+            "email": "support@pyrocms.com",
+            "homepage": "http://pyrocms.com/",
+            "role": "Owner"
+        },
+        {
+            "name": "Ryan Thompson",
+            "email": "ryan@pyrocms.com",
+            "homepage": "http://ryanthepyro.com/",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "email": "support@pyrocms.com"
+    },
+    "autoload": {
+        "psr-4": {
+            "Anomaly\\PartialBlockExtension\\": "src/"
+        }
+    }
+}
